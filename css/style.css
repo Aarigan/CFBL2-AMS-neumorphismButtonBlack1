@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(58, 58, 58); 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns {
+  display: inline-block;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.div-btn {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 45px;
+}
+
+button {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 12px 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.1s ease;
+  border: none;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* Button left */
+/* Button 1 */
+.btn-1-left {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+      0 0 16px rgba(17, 17, 17, 0.288),
+      0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+               3px 3px 5px 2px rgba(80, 88, 103, 0.288),
+               3px 3px 7px 1px rgba(78, 87, 102, 0.733);
+}
+
+.btn-1-left:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+              1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 2 */
+.btn-2-left {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+               3px 3px 5px 2px rgba(80, 88, 103, 0.288),
+               3px 3px 7px 1px rgba(78, 87, 102, 0.733);
+  border-radius: 3px;
+}
+
+.btn-2-left:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 3 */
+.btn-3-left {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+               3px 3px 5px 2px rgba(80, 88, 103, 0.288),
+               3px 3px 7px 1px rgba(78, 87, 102, 0.733);
+  border-radius: 6px;
+}
+
+.btn-3-left:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 4 */
+.btn-4-left {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+               3px 3px 5px 2px rgba(80, 88, 103, 0.288),
+               3px 3px 7px 1px rgba(78, 87, 102, 0.733);
+  border-radius: 12px;
+}
+
+.btn-4-left:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 5 */
+.btn-5-left {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+               3px 3px 5px 2px rgba(80, 88, 103, 0.288),
+               3px 3px 7px 1px rgba(78, 87, 102, 0.733);
+  border-radius: 24px;
+}
+
+.btn-5-left:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 6 */
+.btn-6-left {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+               3px 3px 5px 2px rgba(80, 88, 103, 0.288),
+               3px 3px 7px 1px rgba(78, 87, 102, 0.733);
+  border-radius: 100px;
+}
+
+.btn-6-left:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 7 */
+.btn-7-left {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+               3px 3px 5px 2px rgba(80, 88, 103, 0.288),
+               3px 3px 7px 1px rgba(78, 87, 102, 0.733);
+  border-radius: 10px 100px / 120px;
+}
+
+.btn-7-left:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+
+/* Button 8 square*/
+.btn-8-left {
+  width: 80px;
+  height: 80px;
+  font-size: 16px;
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+               3px 3px 5px 2px rgba(80, 88, 103, 0.288),
+               3px 3px 7px 1px rgba(78, 87, 102, 0.733);
+}
+
+.btn-8-left:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 2px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 9 rounded*/
+.btn-9-left {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+               3px 3px 5px 2px rgba(80, 88, 103, 0.288),
+               3px 3px 7px 1px rgba(78, 87, 102, 0.733);
+}
+
+.btn-9-left:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button right */
+/* Button 1 */
+.btn-1-right {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              15px 15px 15px rgba(43, 43, 43, 0.525),
+              -15px -15px 15px 2px rgba(40, 40, 40, 1),
+              inset -5px -5px 5px  rgba(33, 33, 33, 0.5),
+              inset 5px 5px 5px rgba(0, 0, 0, .4);
+}
+
+.btn-1-right:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(50, 56, 65, 0.751),
+              3px 3px 7px 1px rgba(50, 56, 66, 0.596);
+}
+
+/* Button 2 */
+.btn-2-right {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              15px 15px 15px rgba(43, 43, 43, 0.525),
+              -15px -15px 15px 2px rgba(40, 40, 40, 1),
+              inset -5px -5px 5px rgba(33, 33, 33, 0.5),
+              inset 5px 5px 5px rgba(0, 0, 0, .4);
+  border-radius: 3px;
+}
+
+.btn-2-right:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(50, 56, 65, 0.751),
+              3px 3px 7px 1px rgba(50, 56, 66, 0.596);
+}
+
+/* Button 3 */
+.btn-3-right {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              15px 15px 15px rgba(43, 43, 43, 0.525),
+              -15px -15px 15px 2px rgba(40, 40, 40, 1),
+              inset -5px -5px 5px rgba(33, 33, 33, 0.5),
+              inset 5px 5px 5px rgba(0, 0, 0, .4);
+  border-radius: 6px;
+}
+
+.btn-3-right:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(50, 56, 65, 0.751),
+              3px 3px 7px 1px rgba(50, 56, 66, 0.596);
+}
+
+/* Button 4 */
+.btn-4-right {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              15px 15px 15px rgba(43, 43, 43, 0.525),
+              -15px -15px 15px 2px rgba(40, 40, 40, 1),
+              inset -5px -5px 5px rgba(33, 33, 33, 0.5),
+              inset 5px 5px 5px rgba(0, 0, 0, .4);
+  border-radius: 12px;
+}
+
+.btn-4-right:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(50, 56, 65, 0.751),
+              3px 3px 7px 1px rgba(50, 56, 66, 0.596);
+}
+
+/* Button 5 */
+.btn-5-right {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              15px 15px 15px rgba(43, 43, 43, 0.525),
+              -15px -15px 15px 2px rgba(40, 40, 40, 1),
+              inset -5px -5px 5px rgba(33, 33, 33, 0.5),
+              inset 5px 5px 5px rgba(0, 0, 0, .4);
+  border-radius: 24px;
+}
+
+.btn-5-right:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(50, 56, 65, 0.751),
+              3px 3px 7px 1px rgba(50, 56, 66, 0.596);
+}
+
+/* Button 6 */
+.btn-6-right {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              15px 15px 15px rgba(43, 43, 43, 0.525),
+              -15px -15px 15px 2px rgba(40, 40, 40, 1),
+              inset -5px -5px 5px rgba(33, 33, 33, 0.5),
+              inset 5px 5px 5px rgba(0, 0, 0, .4);
+  border-radius: 100px;
+}
+
+.btn-6-right:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(50, 56, 65, 0.751),
+              3px 3px 7px 1px rgba(50, 56, 66, 0.596);
+}
+
+/* Button 7 */
+.btn-7-right {
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              15px 15px 15px rgba(43, 43, 43, 0.525),
+              -15px -15px 15px 2px rgba(40, 40, 40, 1),
+              inset -5px -5px 5px rgba(33, 33, 33, 0.5),
+              inset 5px 5px 5px rgba(0, 0, 0, .4);
+  border-radius: 10px 100px / 120px;
+}
+
+.btn-7-right:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(50, 56, 65, 0.751),
+              3px 3px 7px 1px rgba(50, 56, 66, 0.596);
+}
+
+
+/* Button 8 square*/
+.btn-8-right {
+  width: 80px;
+  height: 80px;
+  font-size: 16px;
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              15px 15px 15px rgba(43, 43, 43, 0.525),
+              -15px -15px 15px 2px rgba(40, 40, 40, 1),
+              inset -5px -5px 5px rgba(33, 33, 33, 0.5),
+              inset 5px 5px 5px rgba(0, 0, 0, .4);
+}
+
+.btn-8-right:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(50, 56, 65, 0.751),
+              3px 3px 7px 1px rgba(50, 56, 66, 0.596);
+}
+
+/* Button 9 rounded*/
+.btn-9-right {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: rgb(77, 75, 75);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              15px 15px 15px rgba(43, 43, 43, 0.525),
+              -15px -15px 15px 2px rgba(40, 40, 40, 1),
+              inset -5px -5px 5px rgba(33, 33, 33, 0.5),
+              inset 5px 5px 5px rgba(0, 0, 0, .4);
+}
+
+.btn-9-right:hover {
+  color: rgb(6, 223, 223);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .288),
+               0 0 16px rgba(17, 17, 17, 0.288),
+               0 0 3.2px rgba(17, 17, 17, 0.188),
+               1px 1px 14px rgba(1, 255, 255, 0.7);
+  background: rgb(57, 57, 57);
+  box-shadow: 0 0 0 3px rgba(72, 72, 72, 0.7),
+              inset -3px -3px 5px 1px rgba(0, 0, 0, .288),
+              -3px -3px 7px 1px rgba(0, 0, 0, .278),
+              inset 3px 3px 5px 1px rgba(50, 56, 65, 0.751),
+              3px 3px 7px 1px rgba(50, 56, 66, 0.596);
+}
